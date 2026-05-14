@@ -6,6 +6,8 @@ src/industrial_vision/config.py
 src/industrial_vision/edge_detection.py
 src/industrial_vision/feature_extraction.py
 src/industrial_vision/image_io.py
+src/industrial_vision/inference_api.py
+src/industrial_vision/inference_service.py
 src/industrial_vision/inspection.py
 src/industrial_vision/ml_baseline.py
 src/industrial_vision/model_evaluation.py
@@ -25,6 +27,7 @@ src/industrial_vision/step09_feature_extraction.py
 src/industrial_vision/step10_classical_ml_baseline.py
 src/industrial_vision/step11_model_evaluation.py
 src/industrial_vision/step12_model_persistence.py
+src/industrial_vision/step13_prepare_inference_model.py
 src/industrial_vision_inspection_system.egg-info/PKG-INFO
 src/industrial_vision_inspection_system.egg-info/SOURCES.txt
 src/industrial_vision_inspection_system.egg-info/dependency_links.txt
@@ -33,6 +36,7 @@ tests/test_batch_processing.py
 tests/test_edge_detection.py
 tests/test_feature_extraction.py
 tests/test_image_io.py
+tests/test_inference_api.py
 tests/test_inspection.py
 tests/test_ml_baseline.py
 tests/test_model_evaluation.py
