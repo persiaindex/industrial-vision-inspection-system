@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Notebooks
+notes/
+
+# Virtual environment
+.venv/
+venv/
+
+# Local environment files
+.env
+
+# Outputs and generated files
+outputs/
+data/raw/
+data/processed/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
