@@ -1,10 +1,12 @@
+-e .
 opencv-python
 numpy
 pandas
 scikit-learn
+matplotlib
+pytest
 joblib
 fastapi
 uvicorn
 python-multipart
 httpx
-pytest
