@@ -1,6 +1,14 @@
 # Industrial Vision Inspection System
 
-A practical computer-vision and AI application engineering project for industrial inspection.
+A practical **industrial computer-vision portfolio project** built with Python and OpenCV.
+
+The project demonstrates how an inspection workflow can connect image acquisition/preprocessing, defect analysis, feature extraction, a classical ML baseline, API-based inference, testing, and deployment-oriented packaging.
+
+> This is a portfolio/learning project. It is separate from my professional employer projects and contains no proprietary production data.
+
+## Why This Project Exists
+
+Industrial inspection software often needs more than a single image-processing algorithm. A usable system must connect vision logic with repeatable preprocessing, measurable results, APIs, testing, and deployment.
 
 This project demonstrates an end-to-end workflow:
 
@@ -16,11 +24,7 @@ image preprocessing
 → Docker packaging
 ```
 
-## Why This Project Exists
-
-Industrial companies often need practical AI systems that connect image processing, backend services, dashboards, and deployment workflows.
-
-This project focuses on a realistic inspection scenario:
+The example inspection flow is:
 
 ```text
 product image → clean/defective prediction → dashboard result
@@ -128,8 +132,12 @@ Expected after Step 16:
 99 passed
 ```
 
-## Portfolio Summary
+## What This Project Demonstrates
 
-This project shows how to build a practical industrial computer-vision system that connects image processing, ML inference, API design, dashboard integration, testing, and Docker packaging.
+- structured OpenCV-based inspection pipelines
+- practical defect-analysis workflows
+- connection between computer vision and backend services
+- measurable testing and error analysis
+- deployment-oriented packaging with Docker
 
-It is suitable for roles related to Computer Vision Engineering, AI Application Engineering, Industrial AI, Quality Inspection Automation, Python Backend Development, and Manufacturing Software Tools.
+It is relevant to roles in **Machine Vision, Computer Vision Engineering, Industrial AI, Quality Inspection Automation, Python Backend Development, and Manufacturing Software**.
